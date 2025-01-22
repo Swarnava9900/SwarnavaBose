@@ -34,6 +34,7 @@ async function handleFormSubmit(event)
     try {
         await fetch(scriptURL, {
             method: "POST",
+            mode:"no-cors",
             headers: {
                 "Content-Type": "application/json",
             },
