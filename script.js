@@ -29,12 +29,12 @@ async function handleFormSubmit(event)
     console.log('Contact Number:', contactno);
     console.log('Message:', message);
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbxzpDmvZ6wtua1EtIpS0Lpay-aeCTb6Rsa0cf7r5MIt99xF_5tlIjdlZrYmRw4nPYFQ/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbz5geDnAGXVJ9YfmrpJv2Rip6XC_0otQQq38zUYwWjdobt6afnGB89JBl6X8FrLJqm3/exec";
     console.log("scripturl : ",scriptURL);
     try {
         await fetch(scriptURL, {
             method: "POST",
-            mode:"no-cors",
+            mode: "no-cors",
             headers: {
                 "Content-Type": "application/json",
             },
