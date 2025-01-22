@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Swarnava Bose</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+	<!-- Header start -->
+	
+	<header class="header" id="header">
+		<a href="#home" class="logo">S<span>B</span></a>
+		<input type="checkbox" id="check">
+		<label for="check" class="icons">
+			<i class="bx bx-menu" id="menu-icon"></i>
+			<i class="bx bx-x" id="close-icon"></i>
+		</label>
+		<nav class="navbar">
+			<a href="#about">About Me</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</header>
+
+	<!-- Header end -->
+
+	<!-- Home start -->
+
+	<section class="home" id="home">
+	<div class="home-text">
+		<div class="slide">
+			<span class="one">I'm</span>
+		</div>
+		<h1><span class="auto-type"></span></h1>
+		<h3>Full-stack <span class="two">Web Developer</span></h3>
+	</section>
+
+	<!-- Home end -->
+
+	<hr>
+
+	<!-- About start -->
+
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.jpg" alt="err">
+		</div>
+		<div class="about-text">
+			<h2>About <span class="two">Me</span></h2>
+			<p>Hi, I'm Swarnava, a computer science engineering undergraduate based in Kolkata, West Bengal. My passion lies in learning and building skills across various technological areas, including software development, web design, and data analysis. I enjoy exploring both front-end and back-end technologies to create functional and impactful solutions.<br>
+				<br>Beyond academics, I’m deeply interested in electronics and gaming, which keep me inspired and innovative. I also love traveling to new places and indulging in diverse cuisines. I am eager to collaborate and share knowledge, looking forward to working on exciting projects.</p>
+			<a href="#" class="btn">Know More</a>
+		</div>
+	</section>
+
+	<!-- About end -->
+
+	<!-- Services start -->
+
+	<section class="services" id="services">
+		<div class="main-text">
+			<h2>What I<span class="two"> Know...</span></h2>
+		</div>
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class="bx bx-code-alt"></i>
+				</div>
+				<h3>Web Development</h3>
+				<p>Delivering bespoke web development solutions to elevate online presence. Transforming concepts into polished, user-centric websites with advanced technology.</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+			<div class="box">
+				<div class="s-icons">
+					<i class="bx bx-crop"></i>
+				</div>
+				<h3>UI/UX</h3>
+				<p>Elevating digital experiences through intuitive UI/UX design. We blend creativity with user-centric principles to craft engaging and visually appealing interfaces.</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- Services end -->
+
+	<hr>
+
+	<!-- Contact start -->
+
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2><span>Contact</span> Me...</h2>    
+			<div class="list">
+				<li>
+					<a href="mailto:iamacoder99000@gmail.com">iamacoder99000@gmail.com</a>
+				</li>
+				<li>
+					<a href="#" onclick="copyToClipboard('+91 700 333 74986', event)">+91 700 333 74986</a>
+
+				</li>
+			</div>
+			<div class="contact-icons">
+				<a href="https://github.com/Swarnava9900" target="_blank"><i class='bx bxl-github'></i></a>
+				<a href="https://www.instagram.com/knight_fury_9900" target="_blank"><i class='bx bxl-instagram'></i></a>
+				<a href="https://www.linkedin.com/in/swarnava-bose-62a7ab285" target="_blank"><i class='bx bxl-linkedin'></i></a>
+			</div>
+		</div>
+		<div class="contact-form">
+			<form onsubmit="handleFormSubmit(event)">
+				<input type="text" id="name" placeholder="Your Name" required>
+				<input type="email" id="email" placeholder="Your Email" required>
+				<input type="text" id="contactno" placeholder="Your Contact Number">
+				<textarea id="message" cols="35" rows="10" placeholder="How Can I Help You?" required></textarea>
+				<input type="submit" value="Submit" class="submit">
+			</form>
+		</div>
+	</section>
+
+	<!-- Contact end -->
+
+	<!-- Footer start -->
+
+	<section class="end">
+		<div class="last-text">
+			<p>Swarnava@2024</p>
+		</div>
+		<div class="top">
+			<a href="#header"><i class="bx bx-up-arrow-alt"></i></a>
+		</div>
+	</section>
+
+	<!-- Footer end -->
+
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+	<script src="script.js"></script>
+
+</body>
+
+</html>
