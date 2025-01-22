@@ -30,7 +30,7 @@ async function handleFormSubmit(event)
     console.log('Message:', message);
 
     const scriptURL = "APPS_SCRIPT_KEY";
-    console.log(scriptURL);
+    console.log("scripturl : ",scriptURL);
     try {
         await fetch(scriptURL, {
             method: "POST",
