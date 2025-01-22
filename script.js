@@ -29,7 +29,7 @@ async function handleFormSubmit(event)
     console.log('Contact Number:', contactno);
     console.log('Message:', message);
 
-    const scriptURL = "";
+    const scriptURL = "APPS_SCRIPT_KEY";
     try {
         await fetch(scriptURL, {
             method: "POST",
