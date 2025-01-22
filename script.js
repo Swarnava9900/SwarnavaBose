@@ -30,6 +30,7 @@ async function handleFormSubmit(event)
     console.log('Message:', message);
 
     const scriptURL = "https://script.google.com/macros/s/AKfycbxzpDmvZ6wtua1EtIpS0Lpay-aeCTb6Rsa0cf7r5MIt99xF_5tlIjdlZrYmRw4nPYFQ/exec";
+    console.log(scriptURL);
     try {
         await fetch(scriptURL, {
             method: "POST",
