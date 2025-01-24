@@ -264,7 +264,6 @@ section{
 
 .box:hover{
     transform: scale(1.02);
-    cursor: pointer;
 }
 
 .contact{
@@ -272,7 +271,7 @@ section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .contact-text h2{
