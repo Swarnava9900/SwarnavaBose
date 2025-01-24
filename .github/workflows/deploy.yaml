@@ -15,7 +15,7 @@ jobs:
 
     - name: Inject API Key
       run: |
-        sed -i 's|APPS_SCRIPT_KEY|${{ secrets.API_KEY }}|g' script.js
+        sed -i 's|APPS_SCRIPT_KEY|${{ secrets.API_KEY }}|g' js/script.js
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
